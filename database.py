@@ -1,4 +1,3 @@
-# database.py — optimized, clearer, safer
 import sqlite3
 from pathlib import Path
 import csv
@@ -471,3 +470,4 @@ def export_bookings_csv(rows: Iterable[Dict[str, Any]], path: str):
                     get("status"),
                 ]
             )
+
